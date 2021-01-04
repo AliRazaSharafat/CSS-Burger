@@ -28,4 +28,4 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: Deploying on surge
-        run: surge ./build http://pixa-bay-image-finder.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ http://burger-builder-css-for-react.surge.sh --token ${{secrets.SURGE_TOKEN}}
